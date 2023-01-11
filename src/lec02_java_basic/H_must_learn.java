@@ -1,6 +1,6 @@
 package lec02_java_basic;
 
-//Memorize it please
+// Memorize it please
 public class H_must_learn { // Starting of the class body
 	// This is called a Class Body
 	// What a class body contain?

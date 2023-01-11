@@ -39,7 +39,7 @@ What does a class body contain? *****
 
 Memorize the symbols below --
 	( ) = parentheses
-         { } = Curly braces
+   { } = Curly braces
 	[ ] = Square bracket
         < > = Angular bracket
 	/   = slash or forward slash
