@@ -66,9 +66,16 @@ public class Employee {
 		this.fullTimeEmployee = fullTimeEmployee;
 		System.out.println("The Employee Name is: " + empName + ", Employee Id: " + empId+", Employee Sex: " + empSex+" and Full time Employee? Ans: " + fullTimeEmployee); 
 	}
-
 	
+	// Added in next class
+	public Employee (int empId) {
+		this.empId = empId;
+		System.out.println("The Employee Name is: " + empName + ", Employee Id: " + empId+", Employee Sex: " + empSex+" and Full time Employee? Ans: " + fullTimeEmployee); 
+	}
 	
-	
+	public Employee (char empSex) {
+		this.empSex = empSex;
+		System.out.println("The Employee Name is: " + empName + ", Employee Id: " + empId+", Employee Sex: " + empSex+" and Full time Employee? Ans: " + fullTimeEmployee); 
+	}
 
 }

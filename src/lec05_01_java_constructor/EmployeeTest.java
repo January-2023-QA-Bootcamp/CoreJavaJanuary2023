@@ -25,6 +25,15 @@ public class EmployeeTest {
 		// Using default value, for understanding, please don't use it
 		Employee employee10= new Employee("", 0, true, 'F');
 		
+		// Added later
+		Employee emp01 = new Employee(7365);
+		
+		Employee emp02 = new Employee('F');
+		// default value of String is null
+		// default value of int is 0
+		// default value of char is (In Java, the default value of char is “u0000”.)
+		// default value of boolean is false
+		
 
 	}
 

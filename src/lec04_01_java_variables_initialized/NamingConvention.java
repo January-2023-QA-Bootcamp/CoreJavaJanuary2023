@@ -51,7 +51,7 @@ public class NamingConvention {
 	// method names are usually verbs or verb phrase
 	// method name can be (possible) same as Class name, but start with lower case
 	// important info, but not mandatory to be same as class name, it can contain different name too
-	// no duplicate method name is accepted inside the same class
+	// no duplicate method name is accepted inside the same class (for non parameterized method)
 	public void namingConvention() {
 		System.out.println("This is from method");
 	}
