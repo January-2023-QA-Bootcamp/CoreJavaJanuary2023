@@ -1,4 +1,4 @@
-package lec07_03_Java_Interface;
+package lec07_02_Java_Interface;
 
 // Interface names starts with UpperCase 
 // They follow Camel case or Snake case pattern.
