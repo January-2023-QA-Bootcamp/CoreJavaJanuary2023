@@ -46,7 +46,6 @@ public class Calculator06 {
 		return fullName;
 	}
 	
-	// void type method can also be parameterized type
 	public void employee (String empName, int empId, char empSex, boolean fullTimeEmployee) {
 		System.out.println("The Employee Name is: " + empName + ", Employee Id: " + empId+", Employee Sex: " + empSex+" and Full time Employee? Ans: " + fullTimeEmployee); 
 	}

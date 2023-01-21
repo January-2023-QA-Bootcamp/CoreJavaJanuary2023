@@ -20,20 +20,20 @@ public class Calculator07 {
 		return total2;
 	}
 	
-	// Interview question
-	public int subtraction(int c, double d) { // double: 6.754837, WIDER, Need to narrow down (narrowing casting)
+
+	public int subtraction(int c, double d) {
 		int total3 = c - (int) d;
 		System.out.println("Subtraction of c and d is: " + total3);
 		return total3;
 	}
 	
-	public int division01(int e, float f) { // float: 9.2356f, WIDER, Need to narrow down  (narrowing casting)
+	public int division01(int e, float f) {
 		int total4 = e / (int) f;
 		System.out.println("Division of e by f is: " + total4);
 		return total4;
 	}
 	
-	public float division02(int e, float f) { // int = 8, narrow, need widening (widening casting)
+	public float division02(int e, float f) { 
 		float total5 = e / f;
 		System.out.println("Division of e by f is: " + total5);
 		return total5;
