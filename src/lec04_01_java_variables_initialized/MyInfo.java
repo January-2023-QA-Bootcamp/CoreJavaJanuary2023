@@ -7,7 +7,7 @@ public class MyInfo {
 	public byte age = 127;
 	public short myApartmentRent = 32767;
 	public int myYearlySalary = 2147483647;
-	public long myBankBalance = 9223372036854775807l; 
+	public long myBankBalance = 372036854775807l; // if the value is in the range of int, you can avoid writing l at the end
 	public float myHeight = 1.7836382f;
 	public double myGrade = 3.1463647637647263;
 	public char sex = 'M';

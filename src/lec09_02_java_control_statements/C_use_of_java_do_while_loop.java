@@ -22,10 +22,6 @@ public class C_use_of_java_do_while_loop {
 			j++;
 		} while (j<=10);
 		
-		
-		
-		
-		
 
 	}
 
