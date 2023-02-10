@@ -20,7 +20,7 @@ public interface Car extends Taxi, Truck {
 	// No, we must have to initialize
 	// what is the feature of variable that can be used inside Interface?
 	// the variables inside Interface are final and static in nature. final means no change, static means, Interface's own property
-	public static final int INVENTED = 0;
+	public static final int INVENTED = 1885;
 	
 	// variable never been declared inside Interface
 	// public boolean inGermany;

@@ -18,7 +18,7 @@ package lec14_01_java_oop_abstraction;
 public abstract class ElectricCar extends FlyingCar implements  Rocket, HoverCar{
 
 	public boolean carType; // variable declared
-	public String nameOfElectriccar = "Tesla"; // variable initialized
+	public String nameOfElectricCar = "Tesla"; // variable initialized
 	public int costOfTesla = 65000;
 
 	// Can you Declare a Constructor inside Abstract class?
@@ -27,7 +27,7 @@ public abstract class ElectricCar extends FlyingCar implements  Rocket, HoverCar
 		System.out.println("This constructor is from Abstract class-- Electric Car");
 	}
 	// Interview question: Can a Constructor of an Abstract class be initialized?
-	// When we will instantiate the Abstract class, we will get that answer that time
+	// Answer: Yes Possible, if Abstract class is instantiated by concrete class, but Abstract class itself can't help to initialize Constructor
 
 	// method implemented
 	// non-abstract method
