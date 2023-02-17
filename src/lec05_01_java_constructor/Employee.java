@@ -7,6 +7,8 @@ public class Employee {
 	public int empId;
 	public char empSex;
 	public boolean fullTimeEmployee;
+	public int empAge;
+	public int empHiringDate;
 	
 	// Constructor are 2 types --
 	// default constructor (no argument constructor) and parameterized constructor
@@ -77,5 +79,20 @@ public class Employee {
 		this.empSex = empSex;
 		System.out.println("The Employee Name is: " + empName + ", Employee Id: " + empId+", Employee Sex: " + empSex+" and Full time Employee? Ans: " + fullTimeEmployee); 
 	}
+	
+	// This is testing after method overloading - 01
+	public Employee (String empName, int empId, int empAge) { 
+		this.empAge = empAge; 
+		this.empId = empId; 
+		System.out.println("Employee Id: " + empId + ", Age: " + empAge);
+	}
+	
+	// This is testing after method overloading - 02
+	public Employee (int empId, String empName, int empHiringDate) { 
+		this.empHiringDate = empHiringDate; 
+		this.empId = empId; 
+		System.out.println("Employee Id: " + empId + ", Age: " + empHiringDate);
+	}
+	
 
 }
