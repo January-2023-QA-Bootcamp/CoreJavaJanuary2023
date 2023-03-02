@@ -209,6 +209,7 @@ public class UseOfString {
 		System.out.println("\n------------------------------------------------------------------------");
 		// same data type a cluster of data present
 		// How to write Array: first data type, then [] called container, student (OBJECT) is the name of Array, [4] represent total 4 data is present
+		// Array is static
 		String [] student = new String [4]; // or you can use line 220
 		student [0] = "Abdul Pasha";
 		student [1] = "Alam";
