@@ -207,7 +207,7 @@ public class UseOfString {
 		System.out.println(s11.concat(s12));
 		
 		System.out.println("\n------------------------------------------------------------------------");
-		// same data type a cluster of data present
+		// same data type or a cluster of data present
 		// How to write Array: first data type, then [] called container, student (OBJECT) is the name of Array, [4] represent total 4 data is present
 		// Array is static
 		String [] student = new String [4]; // or you can use line 220
@@ -220,22 +220,26 @@ public class UseOfString {
 		System.out.println(student[0]);
 		System.out.println(student.length);
 		
+		System.out.println("\n------------------------------------------------------------------------");
 		// or
 		String [] stJanuary = {"Masud Rana", "Taslim", "Jahedul", "Saimul", "Shahid"};
 		System.out.println(stJanuary[0]);
 		System.out.println(stJanuary[4]);
 		System.out.println(stJanuary.length);
 		
-		// int type
-		
+		System.out.println("\n------------------------------------------------------------------------");
+		// int type		
 		int [] age = {25, 30, 35, 47, 45, 23, 100, 44, 62};
 		System.out.println(age[0]);
 		System.out.println(age.length);
 		
+		System.out.println("\n------------------------------------------------------------------------");
 		// char type
 		char [] sex = {'M', 'M', 'M', 'F', 'M'};
 		System.out.println(sex[3]);
+		System.out.println(sex.length);
 		
+		System.out.println("\n------------------------------------------------------------------------");	
 		// Tough: 2, will be used for Java coding challenge, very very important
 		// how to convert a String to Character, we use toCharArray()
 		String str1 = "Mr owl ate my metal worm";
