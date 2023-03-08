@@ -20,7 +20,7 @@ public class B extends C {
 		b.cMethod(); // I comment out because I changed to parent class of different package, use Class C when need to check inside same package
 		
 		System.out.println("\n---------- public type modifier content of Parent class [N] from different package can be accessed in non-sub/child class (Here B)  ----------");
-		System.out.println("---------- The below coded is coming from class N of package 'lec16_08_java_access_modifier_class_from_outside_package' ----------\n");
+		System.out.println("---------- The below coded is coming from class N of package 'lec18_07_java_access_modifier_class_from_outside_package' ----------\n");
 		N n1 = new N();
 		n1.n1();
 		

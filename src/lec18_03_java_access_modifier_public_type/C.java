@@ -12,6 +12,7 @@ public class C extends M {
 		System.out.println("\n---------- public type modifier content of Parent class [M] from different package can be accessed by sub/child class (Here C)  ----------");
 		System.out.println("---------- The below is coming from class M of package 'lec16_08_java_access_modifier_class_from_outside_package' ----------\n");
 		C c = new C();
+		
 		c.m1();
 	}
 	

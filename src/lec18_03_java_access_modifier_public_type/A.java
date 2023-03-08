@@ -21,7 +21,8 @@ public class A {
 		a.info1 = "This variable is coming from class A which is public type"; // variable initialized here
 		System.out.println(a.info1); 
 		a.a(); // method initialized here
-
+		
+		
 	}
 
 }
