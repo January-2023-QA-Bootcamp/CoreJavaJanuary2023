@@ -4,8 +4,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Formatter;
 import java.util.Scanner;
 
 public class JavaReadAndWrite {
@@ -36,15 +36,17 @@ public class JavaReadAndWrite {
 					Scanner scanner = new Scanner(System.in);
 					String userInput = scanner.nextLine();
 					
+					FileWriter fw = null;
 					try {
-						Formatter formatter = new Formatter();
+						fw = new FileWriter(file);
 						// %S or %s: Specifies String
-						formatter.format("%S", userInput); // %S give data in upper case, Que: why %s in lower case is not working
-						formatter.close();
+						fw.write(userInput);
+						fw.close();
 					} catch (Exception f) {
 						System.out.println("Not printing");
 						//f.printStackTrace(); // this method print the Exception or you can use sysout like line 26
 					}
+					
 					System.out.println("Now go to the Desktop, open the folder, then the file and see what is written in the file");
 					
 					String filePath = "C:\\Users\\Tofael\\Desktop\\JanuaryBatch\\January2023.txt";
