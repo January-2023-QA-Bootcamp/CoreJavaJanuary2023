@@ -39,7 +39,6 @@ public class JavaReadAndWrite {
 					FileWriter fw = null;
 					try {
 						fw = new FileWriter(file);
-						// %S or %s: Specifies String
 						fw.write(userInput);
 						fw.close();
 					} catch (Exception f) {

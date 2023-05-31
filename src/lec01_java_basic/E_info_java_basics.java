@@ -68,12 +68,12 @@ https://www.javatpoint.com/access-modifiers#:~:text=The%20access%20modifiers%20i
 -- for Mac user: we use command + /
 
 13) What is the current version of Java? ****
---> 18 (update accordingly)
+--> 20 (update accordingly)
 
 14) What is the most stable version of Java? ****
---> 1.8
+--> 1.8 and 1.11
 
-15) What is the advantage of using Java 1.8?
+15) What is the advantage of using Java 1.8 or 1.11?
 --> It has compatibility with other applications.
 
 16) What is the command to check the Java version?*****

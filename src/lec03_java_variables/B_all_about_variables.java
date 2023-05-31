@@ -4,7 +4,7 @@ public class B_all_about_variables {
 	// In the class body, we have to write First Variable, Then Constructor and then Method
 	// And they should be before main method
 	// Variable is also called field
-	// Variables ended with ;
+	// Syntax of Variable ended with ;
 	
 	// all the variables name start with lower case
 	// Variable follow Camel Case and snake case feature

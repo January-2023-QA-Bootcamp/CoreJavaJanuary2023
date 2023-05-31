@@ -4,8 +4,11 @@ public class Use_of_wrapper_class {
 	public static void main(String[] args) {
 		System.out.println("\n................. Conversion of a String to int type.....................\n");
 		String name1 = "100";
+		String name333 = "Akba";
+		int abc = 23;
 		System.out.println(name1); // 100
 		System.out.println(name1 + 20); // 10020
+		System.out.println(abc + name333); // 10020
 		System.out.println(name1 + "20"); // 10020
 		System.out.println(100+20); // 120
 		System.out.println(name1 + " " + 20); // 100 20 
